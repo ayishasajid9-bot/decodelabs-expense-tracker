@@ -1,0 +1,18 @@
+total=0
+print('-----Expense Tracker-----')
+while True:
+    
+    Expense=float(input('enter your expense:'))
+    total=total+Expense
+    print('1. yes')
+    print('2. no')
+    choose=int(input('would you like to add new expense:'))
+
+    if choose==1:
+        pass
+    elif choose == 2:
+        print('Thats your final Spend', total)
+        break
+    elif choose== 3:
+        print('Good bye')
+        break
